@@ -1,12 +1,10 @@
-name: Scrape Tech Blogs & Jobs
+name: Scrape Tech Blogs and Jobs
 
 on:
   schedule:
-    # 매일 한국시간 09:00 (UTC 00:00)
     - cron: '0 0 * * *'
-    # 매일 한국시간 18:00 (UTC 09:00)
     - cron: '0 9 * * *'
-  workflow_dispatch: # 수동 실행 가능
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -42,6 +40,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update scraped data $(date -u +%Y-%m-%d_%H:%M)"
+            git commit -m "Update scraped data"
             git push
           fi
