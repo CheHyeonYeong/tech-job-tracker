@@ -16,30 +16,28 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-# 관심 키워드
-WANTED_KEYWORDS = ["백엔드", "프론트엔드", "신입", "주니어"]
+# Java/Spring 백엔드 신입~1년차 키워드
+SEARCH_KEYWORDS = [
+    "java 백엔드",
+    "spring 백엔드",
+    "java 신입",
+    "spring boot",
+    "자바 백엔드",
+    "백엔드 신입",
+]
 
 
 def scrape_wanted_api(keyword: str = "", years: int = 0, limit: int = 20) -> List[Dict]:
-    """원티드 API로 채용 공고 가져오기"""
-    # years: -1 = 전체, 0 = 신입, 1 = 1년차 ...
-    url = "https://www.wanted.co.kr/api/v4/jobs"
-    params = {
-        "country": "kr",
-        "job_sort": "job.latest_order",
-        "years": years,
-        "locations": "all",
-        "limit": limit,
-    }
-
+    """원티드 API - Java/Spring 백엔드"""
     if keyword:
-        # 키워드 검색 API
         encoded = urllib.parse.quote(keyword)
         url = f"https://www.wanted.co.kr/api/v4/jobs?query={encoded}&country=kr&job_sort=job.latest_order&years={years}&limit={limit}"
-        params = {}
+    else:
+        # 신입 백엔드 (tag_type_id=518 = 서버/백엔드)
+        url = f"https://www.wanted.co.kr/api/v4/jobs?country=kr&tag_type_ids=518&job_sort=job.latest_order&years={years}&limit={limit}"
 
     try:
-        response = requests.get(url, params=params, headers=HEADERS, timeout=30)
+        response = requests.get(url, headers=HEADERS, timeout=30)
         response.raise_for_status()
         data = response.json()
     except Exception as e:
@@ -53,25 +51,82 @@ def scrape_wanted_api(keyword: str = "", years: int = 0, limit: int = 20) -> Lis
             position = job.get("position", "")
             job_id = job.get("id", "")
 
+            # Java/Spring 관련 공고만 필터링 (키워드 검색이 아닌 경우)
+            if not keyword:
+                pos_lower = position.lower()
+                if not any(kw in pos_lower for kw in ['java', 'spring', '자바', '스프링', '백엔드', 'backend']):
+                    continue
+
             jobs.append({
                 "title": position,
                 "company": company_name,
                 "link": f"https://www.wanted.co.kr/wd/{job_id}",
-                "source": "wanted.co.kr",
-                "keyword": keyword or "신입",
+                "source": "wanted",
+                "keyword": keyword or "백엔드",
                 "scraped_at": datetime.now().isoformat()
             })
         except Exception as e:
             print(f"Error parsing wanted job: {e}")
 
-    print(f"Scraped {len(jobs)} jobs from wanted.co.kr (keyword: {keyword or '신입'})")
+    print(f"Scraped {len(jobs)} jobs from wanted (keyword: {keyword or '백엔드 신입'})")
     return jobs
 
 
-def scrape_saramin_api(keyword: str = "신입 개발자", count: int = 20) -> List[Dict]:
-    """사람인 검색 (HTML 파싱 - API 없음)"""
+def scrape_jumpit_api(career: str = "1") -> List[Dict]:
+    """점핏 API - 백엔드/서버 신입~1년차
+    career: 1 = 신입(0-1년)
+    """
+    url = "https://api.jumpit.co.kr/api/positions"
+    params = {
+        "sort": "reg_dt",
+        "highlight": "false",
+        "page": 1,
+        "size": 30,
+        "jobCategory": "1",  # 1 = 서버/백엔드
+        "career": career,
+    }
+
+    try:
+        response = requests.get(url, params=params, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+    except Exception as e:
+        print(f"Failed to fetch jumpit: {e}")
+        return []
+
+    jobs = []
+    for job in data.get("result", {}).get("positions", []):
+        try:
+            title = job.get("title", "")
+            # Java/Spring 관련만 필터링
+            title_lower = title.lower()
+            tech_stacks = [t.lower() for t in job.get("techStacks", [])]
+            all_text = title_lower + " " + " ".join(tech_stacks)
+
+            if not any(kw in all_text for kw in ['java', 'spring', '자바', '스프링']):
+                continue
+
+            jobs.append({
+                "title": title,
+                "company": job.get("companyName", ""),
+                "link": f"https://www.jumpit.co.kr/position/{job.get('id', '')}",
+                "source": "jumpit",
+                "keyword": "Java/Spring 백엔드",
+                "scraped_at": datetime.now().isoformat()
+            })
+        except Exception as e:
+            print(f"Error parsing jumpit job: {e}")
+
+    print(f"Scraped {len(jobs)} jobs from jumpit (Java/Spring 백엔드)")
+    return jobs
+
+
+def scrape_saramin(keyword: str, count: int = 20) -> List[Dict]:
+    """사람인 검색 - Java/Spring 백엔드"""
+    from bs4 import BeautifulSoup
+
     encoded = urllib.parse.quote(keyword)
-    url = f"https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&searchword={encoded}&recruitPage=1&recruitSort=relation&recruitPageCount={count}"
+    url = f"https://www.saramin.co.kr/zf_user/search/recruit?searchType=search&searchword={encoded}&recruitPage=1&recruitSort=relation&recruitPageCount={count}&exp_cd=1"  # exp_cd=1: 신입
 
     try:
         response = requests.get(url, headers={
@@ -83,7 +138,6 @@ def scrape_saramin_api(keyword: str = "신입 개발자", count: int = 20) -> Li
         print(f"Failed to fetch saramin: {e}")
         return []
 
-    from bs4 import BeautifulSoup
     soup = BeautifulSoup(response.text, 'lxml')
     jobs = []
 
@@ -106,103 +160,50 @@ def scrape_saramin_api(keyword: str = "신입 개발자", count: int = 20) -> Li
                 "title": title,
                 "company": company,
                 "link": link,
-                "source": "saramin.co.kr",
+                "source": "saramin",
                 "keyword": keyword,
                 "scraped_at": datetime.now().isoformat()
             })
         except Exception as e:
             print(f"Error parsing saramin job: {e}")
 
-    print(f"Scraped {len(jobs)} jobs from saramin.co.kr (keyword: {keyword})")
+    print(f"Scraped {len(jobs)} jobs from saramin (keyword: {keyword})")
     return jobs
 
 
-def scrape_jobkorea(keyword: str = "신입 개발자", count: int = 20) -> List[Dict]:
-    """잡코리아 검색"""
-    encoded = urllib.parse.quote(keyword)
-    url = f"https://www.jobkorea.co.kr/Search/?stext={encoded}&tabType=recruit&Page_No=1"
-
-    try:
-        response = requests.get(url, headers={
-            "User-Agent": HEADERS["User-Agent"],
-            "Accept": "text/html",
-        }, timeout=30)
-        response.raise_for_status()
-    except Exception as e:
-        print(f"Failed to fetch jobkorea: {e}")
-        return []
-
-    from bs4 import BeautifulSoup
-    soup = BeautifulSoup(response.text, 'lxml')
-    jobs = []
-
-    for item in soup.select('.list-item, .item'):
-        try:
-            title_elem = item.select_one('.title, .job-tit a, a.title')
-            company_elem = item.select_one('.name, .corp-name a')
-
-            if not title_elem:
-                continue
-
-            title = title_elem.get_text(strip=True)
-            company = company_elem.get_text(strip=True) if company_elem else ""
-            link = title_elem.get('href', '')
-
-            if link and not link.startswith('http'):
-                link = f"https://www.jobkorea.co.kr{link}"
-
-            if title and link:
-                jobs.append({
-                    "title": title,
-                    "company": company,
-                    "link": link,
-                    "source": "jobkorea.co.kr",
-                    "keyword": keyword,
-                    "scraped_at": datetime.now().isoformat()
-                })
-        except Exception as e:
-            print(f"Error parsing jobkorea job: {e}")
-
-    print(f"Scraped {len(jobs)} jobs from jobkorea.co.kr (keyword: {keyword})")
-    return jobs
-
-
-def scrape_jumpit(keyword: str = "", years: int = 0) -> List[Dict]:
-    """점핏 API (신입 개발자 채용)"""
-    url = "https://api.jumpit.co.kr/api/positions"
+def scrape_zighang() -> List[Dict]:
+    """직행 - Java/Spring 백엔드 신입
+    Note: 직행은 CSR이라 HTML에서 데이터 추출이 어려움
+    API 발견 시 업데이트 필요
+    """
+    # 직행 API 시도
+    url = "https://zighang.com/api/recruitment"
     params = {
-        "sort": "reg_dt",
-        "highlight": "false",
-        "page": 1,
-        "size": 20,
+        "career": "NEWCOMER",
+        "position": "BACKEND",
     }
-    if years == 0:
-        params["career"] = "0"  # 신입
 
     try:
         response = requests.get(url, params=params, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        data = response.json()
+        if response.status_code == 200:
+            data = response.json()
+            jobs = []
+            for job in data.get("data", data.get("recruitments", [])):
+                jobs.append({
+                    "title": job.get("title", ""),
+                    "company": job.get("companyName", job.get("company", {}).get("name", "")),
+                    "link": f"https://zighang.com/recruitment/{job.get('id', '')}",
+                    "source": "zighang",
+                    "keyword": "백엔드 신입",
+                    "scraped_at": datetime.now().isoformat()
+                })
+            print(f"Scraped {len(jobs)} jobs from zighang")
+            return jobs
     except Exception as e:
-        print(f"Failed to fetch jumpit: {e}")
-        return []
+        print(f"Zighang API not available: {e}")
 
-    jobs = []
-    for job in data.get("result", {}).get("positions", []):
-        try:
-            jobs.append({
-                "title": job.get("title", ""),
-                "company": job.get("companyName", ""),
-                "link": f"https://www.jumpit.co.kr/position/{job.get('id', '')}",
-                "source": "jumpit.co.kr",
-                "keyword": "신입" if years == 0 else keyword,
-                "scraped_at": datetime.now().isoformat()
-            })
-        except Exception as e:
-            print(f"Error parsing jumpit job: {e}")
-
-    print(f"Scraped {len(jobs)} jobs from jumpit.co.kr")
-    return jobs
+    print("Scraped 0 jobs from zighang (CSR site - API not found)")
+    return []
 
 
 def load_jobs(filepath: Path) -> List[Dict]:
@@ -225,7 +226,7 @@ def get_new_jobs(current: List[Dict], previous: List[Dict]) -> List[Dict]:
 
 
 def main():
-    print("=== Job Postings Scraper ===")
+    print("=== Job Postings Scraper (Java/Spring Backend 신입~1년차) ===")
     print(f"Data file: {DATA_FILE}")
 
     previous = load_jobs(DATA_FILE)
@@ -233,28 +234,28 @@ def main():
 
     all_current = []
 
-    # 1. 원티드 - 신입 (years=0)
-    wanted_jobs = scrape_wanted_api(years=0, limit=30)
-    all_current.extend(wanted_jobs)
-
-    # 2. 원티드 - 키워드 검색
-    for keyword in WANTED_KEYWORDS:
-        jobs = scrape_wanted_api(keyword=keyword, years=-1, limit=15)
+    # 1. 원티드 - 백엔드 신입 (years=0~1)
+    for years in [0, 1]:
+        jobs = scrape_wanted_api(years=years, limit=30)
         all_current.extend(jobs)
 
-    # 3. 점핏 - 신입
-    jumpit_jobs = scrape_jumpit(years=0)
+    # 2. 원티드 - Java/Spring 키워드 검색
+    for keyword in ["java 백엔드 신입", "spring boot 신입", "자바 개발자 신입"]:
+        jobs = scrape_wanted_api(keyword=keyword, years=1, limit=20)
+        all_current.extend(jobs)
+
+    # 3. 점핏 - 백엔드 신입
+    jumpit_jobs = scrape_jumpit_api(career="1")
     all_current.extend(jumpit_jobs)
 
-    # 4. 사람인
-    saramin_jobs = scrape_saramin_api("신입 백엔드", 15)
-    all_current.extend(saramin_jobs)
-    saramin_jobs2 = scrape_saramin_api("신입 프론트엔드", 15)
-    all_current.extend(saramin_jobs2)
+    # 4. 사람인 - Java/Spring 신입
+    for keyword in ["java 신입", "spring boot 신입", "자바 백엔드 신입"]:
+        saramin_jobs = scrape_saramin(keyword, 15)
+        all_current.extend(saramin_jobs)
 
-    # 5. 잡코리아
-    jobkorea_jobs = scrape_jobkorea("신입 개발자", 15)
-    all_current.extend(jobkorea_jobs)
+    # 5. 직행 (CSR이라 API 필요)
+    zighang_jobs = scrape_zighang()
+    all_current.extend(zighang_jobs)
 
     # 중복 제거
     seen = set()
@@ -271,7 +272,7 @@ def main():
 
     if new_jobs:
         print(f"\n새 채용 공고 {len(new_jobs)}개 발견!")
-        for job in new_jobs[:10]:  # 처음 10개만 출력
+        for job in new_jobs[:10]:
             print(f"  - [{job.get('company', '?')}] {job['title'][:50]}")
 
         # Discord 알림
@@ -284,16 +285,16 @@ def main():
             for j in new_jobs[:10]
         ]
         send_discord_notification(
-            f"새 채용 공고 {len(new_jobs)}개",
+            f"Java/Spring 백엔드 신입 공고 {len(new_jobs)}개",
             formatted_jobs,
             color=0x36B37E
         )
     else:
         print("\n새 채용 공고 없음")
 
-    # 저장 (최신 500개 유지)
+    # 저장 (최신 300개 유지)
     all_jobs = unique_jobs + [j for j in previous if j['link'] not in {c['link'] for c in unique_jobs}]
-    all_jobs = all_jobs[:500]
+    all_jobs = all_jobs[:300]
     save_jobs(all_jobs, DATA_FILE)
     print(f"Saved {len(all_jobs)} jobs")
 
