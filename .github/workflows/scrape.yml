@@ -1,0 +1,47 @@
+name: Scrape Tech Blogs & Jobs
+
+on:
+  schedule:
+    # 매일 한국시간 09:00 (UTC 00:00)
+    - cron: '0 0 * * *'
+    # 매일 한국시간 18:00 (UTC 09:00)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # 수동 실행 가능
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Toss Tech scraper
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scraper/toss_tech.py
+
+      - name: Run Job Postings scraper
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python scraper/job_postings.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update scraped data $(date -u +%Y-%m-%d_%H:%M)"
+            git push
+          fi
