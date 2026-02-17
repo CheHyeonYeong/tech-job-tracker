@@ -5,7 +5,7 @@
     "link": "https://www.wanted.co.kr/wd/342697",
     "source": "wanted",
     "keyword": "백엔드",
-    "scraped_at": "2026-02-16T09:59:55.664002"
+    "scraped_at": "2026-02-17T01:46:06.967731"
   },
   {
     "title": "[인턴] 백엔드 엔지니어 (전환형)",
@@ -13,7 +13,7 @@
     "link": "https://www.wanted.co.kr/wd/342463",
     "source": "wanted",
     "keyword": "백엔드",
-    "scraped_at": "2026-02-16T09:59:55.664028"
+    "scraped_at": "2026-02-17T01:46:06.967756"
   },
   {
     "title": "웹 애플리케이션 백엔드(풀스택) 개발자(신입)",
@@ -21,7 +21,7 @@
     "link": "https://www.wanted.co.kr/wd/341762",
     "source": "wanted",
     "keyword": "백엔드",
-    "scraped_at": "2026-02-16T09:59:55.664043"
+    "scraped_at": "2026-02-17T01:46:06.967772"
   },
   {
     "title": "[인턴] 글로우엠 백엔드 엔지니어",
@@ -29,7 +29,7 @@
     "link": "https://www.wanted.co.kr/wd/341566",
     "source": "wanted",
     "keyword": "백엔드",
-    "scraped_at": "2026-02-16T09:59:55.664050"
+    "scraped_at": "2026-02-17T01:46:06.967778"
   },
   {
     "title": "바이언스 백엔드 개발자(1~5년)",
@@ -37,7 +37,7 @@
     "link": "https://www.wanted.co.kr/wd/342614",
     "source": "wanted",
     "keyword": "백엔드",
-    "scraped_at": "2026-02-16T09:59:56.298928"
+    "scraped_at": "2026-02-17T01:46:07.585489"
   },
   {
     "title": "웹 개발자 채용[대리]",
@@ -45,7 +45,7 @@
     "link": "https://www.jumpit.co.kr/position/52946359",
     "source": "jumpit",
     "keyword": "Java/Spring 백엔드",
-    "scraped_at": "2026-02-16T09:59:59.932914"
+    "scraped_at": "2026-02-17T01:46:11.121502"
   },
   {
     "title": "게임 개발자(1~3년)",
@@ -53,7 +53,7 @@
     "link": "https://www.jumpit.co.kr/position/52903614",
     "source": "jumpit",
     "keyword": "Java/Spring 백엔드",
-    "scraped_at": "2026-02-16T09:59:59.932924"
+    "scraped_at": "2026-02-17T01:46:11.121511"
   },
   {
     "title": "백엔드 개발자(1~3년)",
@@ -61,7 +61,7 @@
     "link": "https://www.jumpit.co.kr/position/52903628",
     "source": "jumpit",
     "keyword": "Java/Spring 백엔드",
-    "scraped_at": "2026-02-16T09:59:59.932928"
+    "scraped_at": "2026-02-17T01:46:11.121515"
   },
   {
     "title": "풀스텍 개발자-경력",
@@ -69,7 +69,367 @@
     "link": "https://www.jumpit.co.kr/position/52875617",
     "source": "jumpit",
     "keyword": "Java/Spring 백엔드",
-    "scraped_at": "2026-02-16T09:59:59.932937"
+    "scraped_at": "2026-02-17T01:46:11.121525"
+  },
+  {
+    "title": "시스템 유지보수 및JAVA 신입개발자 모집",
+    "company": "(주)굿플랫폼",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53092421&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.296360"
+  },
+  {
+    "title": "AI 사업부 JAVA 개발자 (신입)",
+    "company": "엔셀 주식회사",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52957753&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.296863"
+  },
+  {
+    "title": "[웹개발] JAVA 개발 및 운영 정규직 신입",
+    "company": "(주)블루비즈넷",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53033728&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.297326"
+  },
+  {
+    "title": "JAVA 웹프로그래머 웹개발 신입 모집",
+    "company": "(주)인컴",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52993732&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.297823"
+  },
+  {
+    "title": "공공기관 정보 시스템(JAVA) 웹 개발자 채용(신입, 경력)",
+    "company": "주식회사오픈시스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52994680&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.298281"
+  },
+  {
+    "title": "(주)뉴제이플러스 JAVA 백엔드 신입 모집",
+    "company": "(주)뉴제이플러스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53051911&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.298702"
+  },
+  {
+    "title": "JAVA 웹 개발자 채용(신입)",
+    "company": "(주)공감아이티",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52980172&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.299160"
+  },
+  {
+    "title": "java(스프링) 신입 웹 개발자를 모십니다.",
+    "company": "(주)코어스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53011375&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.299492"
+  },
+  {
+    "title": "신입 개발자 모집 기회를 잡아(JAVA)요",
+    "company": "(주)이씨뱅크",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53070138&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.299961"
+  },
+  {
+    "title": "[신입] 미들웨어(WEB/WAS) 및 JAVA 엔지니어 정규직",
+    "company": "주식회사블리스아이티",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53090303&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.300416"
+  },
+  {
+    "title": "신입공채-컨설턴트/영업/해외사업/SW개발",
+    "company": "(주)파수",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53072399&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.300914"
+  },
+  {
+    "title": "[금융투자회사] 소프트웨어 개발 인턴 채용 - 정규직 전환형",
+    "company": "(주)폴라리스투자자문",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52984465&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.301378"
+  },
+  {
+    "title": "[금융투자회사] 소프트웨어 개발자 채용 (Python, Java, C++)",
+    "company": "(주)폴라리스투자자문",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52984402&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.301845"
+  },
+  {
+    "title": "[링커리어] 백엔드개발 신입(정규직)",
+    "company": "주식회사 링커리어",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53079942&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.302298"
+  },
+  {
+    "title": "백엔드 개발자 신입",
+    "company": "(주)팀오투",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53004413&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a7619192-9d43-4147-bddf-29121cf251cc",
+    "source": "saramin",
+    "keyword": "java 신입",
+    "scraped_at": "2026-02-17T01:46:14.302761"
+  },
+  {
+    "title": "IT 개발자 신입 인턴 채용",
+    "company": "(주)엑심베이",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52986406&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.848245"
+  },
+  {
+    "title": "[미소정보기술 대전R&D센터] 웹 개발 신입사원 모집",
+    "company": "(주)미소정보기술",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53058711&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.848729"
+  },
+  {
+    "title": "[금천구 가산 /위드시스템] 웹개발 웹프로그래머 개발팀 (신입)",
+    "company": "위드시스템(주)",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53022875&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.849077"
+  },
+  {
+    "title": "[비즈피어] 프론트엔드(Front-end) 개발자모집 (React)",
+    "company": "비즈피어(주)",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52729119&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.849530"
+  },
+  {
+    "title": "(주)뉴제이플러스 JAVA 백엔드 신입 모집",
+    "company": "(주)뉴제이플러스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53051911&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.849958"
+  },
+  {
+    "title": "백엔드 개발자 신입 모집",
+    "company": "위미르(주)",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52651043&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.850414"
+  },
+  {
+    "title": "[신입 채용][여의도] AI Solutions Engineer(AI Agent 엔지니어)",
+    "company": "(주)276홀딩스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53091451&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.850776"
+  },
+  {
+    "title": "SW개발 신입직원 모집",
+    "company": "엠에스코리아",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52967369&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.851283"
+  },
+  {
+    "title": "[신입/경력] React/Spring Boot 기반 개발자 채용 (면접비 지급)",
+    "company": "(주)데이터유니버스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52856793&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.851761"
+  },
+  {
+    "title": "[에이텍/판교] 2월 각 부문 신입/경력사원 모집",
+    "company": "(주)에이텍",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52753413&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.852221"
+  },
+  {
+    "title": "2026년 상반기 각 부문별 신입 및 경력 채용",
+    "company": "(주)씨아이테크",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52737994&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.852692"
+  },
+  {
+    "title": "㈜푸드테크 상반기 신입/경력 전부문 채용",
+    "company": "(주)푸드테크",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52876130&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.853180"
+  },
+  {
+    "title": "2026년 전직군 신입/경력 채용",
+    "company": "(주)더블티",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52705474&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.853635"
+  },
+  {
+    "title": "2026년 각 부문별 신입 및 경력 채용",
+    "company": "(주)와이즈에이아이",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52959946&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.854104"
+  },
+  {
+    "title": "2026년 1분기 NICE피앤아이 채용 공고",
+    "company": "나이스피앤아이(주)",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53092393&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8651f93d-fad7-4372-b5b5-cf119c35e074",
+    "source": "saramin",
+    "keyword": "spring boot 신입",
+    "scraped_at": "2026-02-17T01:46:16.854583"
+  },
+  {
+    "title": "(주)뉴제이플러스 JAVA 백엔드 신입 모집",
+    "company": "(주)뉴제이플러스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53051911&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.438972"
+  },
+  {
+    "title": "신입공채-컨설턴트/영업/해외사업/SW개발",
+    "company": "(주)파수",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53072399&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.439474"
+  },
+  {
+    "title": "AI 사업부 JAVA 개발자 (신입)",
+    "company": "엔셀 주식회사",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52957753&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.439950"
+  },
+  {
+    "title": "백엔드 개발자 신입",
+    "company": "(주)팀오투",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53004413&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.440410"
+  },
+  {
+    "title": "[가산] [구로] 데이터크레딧 신입 개발자 채용",
+    "company": "데이터크레딧",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53012917&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.440875"
+  },
+  {
+    "title": "JAVA 웹프로그래머 웹개발 신입 모집",
+    "company": "(주)인컴",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52993732&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.441327"
+  },
+  {
+    "title": "[연세대학교 연세유업] IT 개발 및 운영 담당자 채용(신입)",
+    "company": "연세대학교 연세유업",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53019447&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.441827"
+  },
+  {
+    "title": "[의류벤더 리무역] 전산팀(IT) 신입",
+    "company": "리무역 (주)",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53088890&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.442288"
+  },
+  {
+    "title": "[의류벤더 서이] 전산팀(IT) 신입",
+    "company": "(주)서이",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53089519&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.442754"
+  },
+  {
+    "title": "(주)나눔기술 AI시스템 개발 신입사원",
+    "company": "㈜나눔기술",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52907465&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.443212"
+  },
+  {
+    "title": "[주 4일제] 풀스택 개발자 (ICT팀 팀원 채용)",
+    "company": "(주)에스아이엠지",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53018905&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.443633"
+  },
+  {
+    "title": "백엔드 개발자 채용[신입]",
+    "company": "(주)건강누리",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52946372&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.444095"
+  },
+  {
+    "title": "(주)나휴케어 Java 백엔드 개발자 모집",
+    "company": "(주)나휴케어",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53027835&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.444547"
+  },
+  {
+    "title": "[ITCEN CTS] 2026년 상반기 신입사원 공개채용",
+    "company": "(주)아이티센씨티에스",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53082260&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.445004"
+  },
+  {
+    "title": "[미소정보기술 대전R&D센터] 웹 개발 신입사원 모집",
+    "company": "(주)미소정보기술",
+    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53058711&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=633c877f-f739-43c9-b7d7-483850da4de3",
+    "source": "saramin",
+    "keyword": "자바 백엔드 신입",
+    "scraped_at": "2026-02-17T01:46:19.445453"
   },
   {
     "title": "시스템 유지보수 및JAVA 신입개발자 모집",
@@ -2038,365 +2398,5 @@
     "source": "saramin",
     "keyword": "spring boot 신입",
     "scraped_at": "2026-02-14T01:42:56.120772"
-  },
-  {
-    "title": "백엔드 개발자 신입 모집",
-    "company": "위미르(주)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52651043&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.121235"
-  },
-  {
-    "title": "SW개발 신입직원 모집",
-    "company": "엠에스코리아",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52967369&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.121694"
-  },
-  {
-    "title": "[신입/경력] React/Spring Boot 기반 개발자 채용 (면접비 지급)",
-    "company": "(주)데이터유니버스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52856793&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.122165"
-  },
-  {
-    "title": "[에이텍/판교] 2월 각 부문 신입/경력사원 모집",
-    "company": "(주)에이텍",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52753413&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.122627"
-  },
-  {
-    "title": "2026년 전직군 신입/경력 채용",
-    "company": "(주)더블티",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52705474&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.123100"
-  },
-  {
-    "title": "2026년 상반기 각 부문별 신입 및 경력 채용",
-    "company": "(주)씨아이테크",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52737994&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.123562"
-  },
-  {
-    "title": "㈜푸드테크 상반기 신입/경력 전부문 채용",
-    "company": "(주)푸드테크",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52876130&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.124062"
-  },
-  {
-    "title": "2026년 각 부문별 신입 및 경력 채용",
-    "company": "(주)와이즈에이아이",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52959946&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.124519"
-  },
-  {
-    "title": "2026년 상반기 신입/경력 직원 수시채용 (애플리케이션 개발)",
-    "company": "나이스평가정보(주)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53057119&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=0aea11be-b3c6-4fce-b278-a7ab60802bbe",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-14T01:42:56.125026"
-  },
-  {
-    "title": "(주)뉴제이플러스 JAVA 백엔드 신입 모집",
-    "company": "(주)뉴제이플러스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53051911&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.163098"
-  },
-  {
-    "title": "신입공채-컨설턴트/영업/해외사업/SW개발",
-    "company": "(주)파수",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53072399&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.163570"
-  },
-  {
-    "title": "[의류벤더 리무역] 전산팀(IT) 신입",
-    "company": "리무역 (주)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53088890&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.164044"
-  },
-  {
-    "title": "AI 사업부 JAVA 개발자 (신입)",
-    "company": "엔셀 주식회사",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52957753&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.164502"
-  },
-  {
-    "title": "[의류벤더 서이] 전산팀(IT) 신입",
-    "company": "(주)서이",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53089519&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.164970"
-  },
-  {
-    "title": "(주)나눔기술 AI시스템 개발 신입사원",
-    "company": "㈜나눔기술",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52907465&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.165422"
-  },
-  {
-    "title": "백엔드 개발자 신입",
-    "company": "(주)팀오투",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53004413&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.165884"
-  },
-  {
-    "title": "백엔드 개발자 채용[신입]",
-    "company": "(주)건강누리",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52946372&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.166333"
-  },
-  {
-    "title": "[가산] [구로] 데이터크레딧 신입 개발자 채용",
-    "company": "데이터크레딧",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53012917&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.166793"
-  },
-  {
-    "title": "(주)나휴케어 Java 백엔드 개발자 모집",
-    "company": "(주)나휴케어",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53027835&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.167272"
-  },
-  {
-    "title": "JAVA 웹프로그래머 웹개발 신입 모집",
-    "company": "(주)인컴",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52993732&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.167777"
-  },
-  {
-    "title": "[연세대학교 연세유업] IT 개발 및 운영 담당자 채용(신입)",
-    "company": "연세대학교 연세유업",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53019447&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.168263"
-  },
-  {
-    "title": "[주 4일제] 풀스택 개발자 (ICT팀 팀원 채용)",
-    "company": "(주)에스아이엠지",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53018905&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.168687"
-  },
-  {
-    "title": "[ITCEN CTS] 2026년 상반기 신입사원 공개채용",
-    "company": "(주)아이티센씨티에스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53082260&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.169154"
-  },
-  {
-    "title": "[미소정보기술 대전R&D센터] 웹 개발 신입사원 모집",
-    "company": "(주)미소정보기술",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53058711&location=ts&searchword=%EC%9E%90%EB%B0%94+%EB%B0%B1%EC%97%94%EB%93%9C+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=a961c618-0077-4a85-8c57-5cd7a77ed4c7",
-    "source": "saramin",
-    "keyword": "자바 백엔드 신입",
-    "scraped_at": "2026-02-14T01:42:58.169605"
-  },
-  {
-    "title": "시스템 유지보수 및JAVA 신입개발자 모집",
-    "company": "(주)굿플랫폼",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53092421&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.872608"
-  },
-  {
-    "title": "AI 사업부 JAVA 개발자 (신입)",
-    "company": "엔셀 주식회사",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52957753&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.873114"
-  },
-  {
-    "title": "공공기관 정보 시스템(JAVA) 웹 개발자 채용(신입, 경력)",
-    "company": "주식회사오픈시스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52994680&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.873584"
-  },
-  {
-    "title": "[웹개발] JAVA 개발 및 운영 정규직 신입",
-    "company": "(주)블루비즈넷",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53033728&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.874083"
-  },
-  {
-    "title": "JAVA 웹프로그래머 웹개발 신입 모집",
-    "company": "(주)인컴",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52993732&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.874549"
-  },
-  {
-    "title": "(주)뉴제이플러스 JAVA 백엔드 신입 모집",
-    "company": "(주)뉴제이플러스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53051911&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.874987"
-  },
-  {
-    "title": "java(스프링) 신입 웹 개발자를 모십니다.",
-    "company": "(주)코어스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53011375&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.875323"
-  },
-  {
-    "title": "JAVA 웹 개발자 채용(신입)",
-    "company": "(주)공감아이티",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52980172&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.875796"
-  },
-  {
-    "title": "신입 개발자 모집 기회를 잡아(JAVA)요",
-    "company": "(주)이씨뱅크",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53070138&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.876254"
-  },
-  {
-    "title": "[신입] 미들웨어(WEB/WAS) 및 JAVA 엔지니어 정규직",
-    "company": "주식회사블리스아이티",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53090303&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.876716"
-  },
-  {
-    "title": "신입공채-컨설턴트/영업/해외사업/SW개발",
-    "company": "(주)파수",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53072399&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.877191"
-  },
-  {
-    "title": "[미소정보기술] 솔루션 및 플랫폼 개발자",
-    "company": "(주)미소정보기술",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52572244&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.877658"
-  },
-  {
-    "title": "[정규직] 라톤테크 보안 솔루션 개발자 신입 채용",
-    "company": "(주)라톤테크",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52957768&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.878128"
-  },
-  {
-    "title": "[신입]통합회원관리 솔루션 개발 및 유지보수 담당자 모집",
-    "company": "(주)리버스아이티",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52987258&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.878582"
-  },
-  {
-    "title": "[금융투자회사] 소프트웨어 개발자 채용 (Python, Java, C++)",
-    "company": "(주)폴라리스투자자문",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52984402&location=ts&searchword=java+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=f9928e04-90e0-49cf-94ef-4bd99f3302a0",
-    "source": "saramin",
-    "keyword": "java 신입",
-    "scraped_at": "2026-02-13T09:52:31.879050"
-  },
-  {
-    "title": "[미소정보기술] 솔루션 및 플랫폼 개발자",
-    "company": "(주)미소정보기술",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52572244&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8b2a691f-fd0d-408a-a6c5-a98011695426",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-13T09:52:34.460311"
-  },
-  {
-    "title": "IT 개발자 신입 인턴 채용",
-    "company": "(주)엑심베이",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52986406&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8b2a691f-fd0d-408a-a6c5-a98011695426",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-13T09:52:34.460797"
-  },
-  {
-    "title": "[미소정보기술 대전R&D센터] 웹 개발 신입사원 모집",
-    "company": "(주)미소정보기술",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53058711&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8b2a691f-fd0d-408a-a6c5-a98011695426",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-13T09:52:34.461258"
-  },
-  {
-    "title": "[금천구 가산 /위드시스템] 웹개발 웹프로그래머 개발팀 (신입)",
-    "company": "위드시스템(주)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53022875&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8b2a691f-fd0d-408a-a6c5-a98011695426",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-13T09:52:34.461614"
-  },
-  {
-    "title": "[비즈피어] 프론트엔드(Front-end) 개발자모집 (React)",
-    "company": "비즈피어(주)",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=52729119&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8b2a691f-fd0d-408a-a6c5-a98011695426",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-13T09:52:34.462082"
-  },
-  {
-    "title": "(주)뉴제이플러스 JAVA 백엔드 신입 모집",
-    "company": "(주)뉴제이플러스",
-    "link": "https://www.saramin.co.kr/zf_user/jobs/relay/view?view_type=search&rec_idx=53051911&location=ts&searchword=spring+boot+%EC%8B%A0%EC%9E%85&searchType=search&paid_fl=n&search_uuid=8b2a691f-fd0d-408a-a6c5-a98011695426",
-    "source": "saramin",
-    "keyword": "spring boot 신입",
-    "scraped_at": "2026-02-13T09:52:34.462504"
   }
 ]
